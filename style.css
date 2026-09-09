@@ -1,0 +1,28 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(lightblue, rgb(103, 161, 181));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+div {
+    height: 80vh;
+    width: 80vw;
+    display: flex;
+    border-style: solid;
+    align-items: center;
+    justify-content: space-around;
+    font-size: xx-large;
+}

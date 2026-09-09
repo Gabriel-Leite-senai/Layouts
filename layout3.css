@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+.texto-centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    }
+nav {
+        width: 10vw;
+        background-color: plum;
+    }
+div {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+    }
+header {
+    background-color: tomato;
+    height: 15vh;
+    width: 100%;
+}
+main {
+    flex-grow: 1;
+    display: flex;
+    background-color: lightgreen;
+}
+footer {
+    background-color: purple;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

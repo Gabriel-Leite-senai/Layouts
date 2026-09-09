@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+.texto-centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+nav {
+    width: 10vw;
+    background-color: plum;
+    gap: 16px;
+    flex-direction: column;
+}
+.botao-tipo1 {
+    background-color: tomato;
+    border-style: solid;
+    border-style: none;
+    padding: 10px;
+    font-size: large;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+header {
+    background-color: tomato;
+    height: 10vh;
+    width: 100%;
+}
+.aside-article {
+    display: flex;
+    flex-direction: row;
+}
+article {
+    flex-grow: 1;
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 25%;
+}
+.bloco {
+    flex-grow: 0;
+    height: 30%;
+    width: 60%;
+    background-color: lightblue;
+    flex-direction: row;
+    margin-top: 128px;
+}
+.bloco2 {
+    flex-grow: 0;
+    height: 20%;
+    width: 20%;
+    background-color: pink;
+    margin-bottom: 128px;
+}
+aside {
+    width: 10vw;
+    background-color: beige;
+}
+footer {
+    background-color: purple;
+    height: 10vh;
+    width: 100%;
+}
